@@ -47,7 +47,7 @@
         $funcionario->setCidade($_POST['cidade']);
         $funcionario->setSalHora($_POST['salHora']);
         $funcionario->setHorasTrab($_POST['horasTrab']);
-        $funcionario->setSalarioFinal($_POST['salario']);
+        $funcionario->setSalarioFinal($funcionario->calcularSalario());
 
         echo "<div class='container'><h3>Usuário Cadastrado com sucesso</h3><div>";
     }
