@@ -9,9 +9,9 @@
 </head>
 <body>
 
-    <div class="container">
-
+    <div class="container backgroundFormulario">
         <form action="" method="post">
+            
             <label for="">Nome: </label><br>
             <input type="text" id="nome" name="nome" value=""><br>
             <label for="">Cidade: </label><br>
@@ -22,14 +22,15 @@
             <input type="number" name="horasTrab" id="horasTrab" min="0" step=".01"><br>
             <label for="">Aumento: </label><br>
             <input type="number" name="aumento" id="aumento" min="0" step=".01"><br><br>
+
             <div class="container">
                 <input type="submit" class="btns" value="Cadastrar" name="btnCadastrar">
                 <input type="submit" class="btns" value="Calcular Salário" name="btnCalcular">
                 <input type="submit" class="btns" value="Mostrar Dados" name="btnMostrar">
                 <input type="submit" class="btns" value="Aumento Salarial" name="btnAumentar">
             </div>
+            
         </form>
-        
     </div>
     
 </body>
